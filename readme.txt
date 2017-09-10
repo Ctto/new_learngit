@@ -9,3 +9,4 @@ git tracks changes of files.
 //>>>>>>> feature1
 create a new branch is quick and simple.
 lrn git merge (--no-ff
+before create bug branch
