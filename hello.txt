@@ -2,3 +2,26 @@ before crt bug branch issue-101
 new file_ hello.py
 hello!
 try cooperate ubuntu & debian 233
+origin/dev & ubun
+
+git status 
+On branch dev
+Your branch is up-to-date with 'origin_rmt/dev'.
+
+*   7609f36 get pull & fix conflict(ubun & deb) (ubun)
+|\  
+| * 5a4df0e try cooperate ubun&deb  (deb)
+* | 0555fd7 another change hello.txt (tst with deb  (ubun)
+|/  
+* 265d78a diff readme(line2 a) master & dev  (ubun&deb)
+
+but in deb
+
+git status
+On branch dev
+Your branch is up-to-date with 'origin/dev'.
+nothing to commit, working tree clean
+
+* 5a4df0e try cooperate ubun&deb
+* 265d78a diff readme(line2 a) master & dev
+ by deb
