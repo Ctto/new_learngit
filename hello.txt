@@ -1,27 +1,41 @@
 before crt bug branch issue-101
 new file_ hello.py
 hello!
-try cooperate ubuntu & debian 233
-origin/dev & ubun
+	fixed by deb 1
+/<<<<<<< HEAD
+/try cooperate ubuntu & debian 233
+/origin/dev & ubun
 
-git status 
-On branch dev
-Your branch is up-to-date with 'origin_rmt/dev'.
+/git status 
+/On branch dev
+/Your branch is up-to-date with 'origin_rmt/dev'.
 
-*   7609f36 get pull & fix conflict(ubun & deb) (ubun)
-|\  
-| * 5a4df0e try cooperate ubun&deb  (deb)
-* | 0555fd7 another change hello.txt (tst with deb  (ubun)
-|/  
-* 265d78a diff readme(line2 a) master & dev  (ubun&deb)
+/*   7609f36 get pull & fix conflict(ubun & deb) (ubun)
+/|\  
+/| * 5a4df0e try cooperate ubun&deb  (deb)
+/* | 0555fd7 another change hello.txt (tst with deb  (ubun)
+/|/  
+/* 265d78a diff readme(line2 a) master & dev  (ubun&deb)
 
-but in deb
+/but in deb
 
-git status
-On branch dev
-Your branch is up-to-date with 'origin/dev'.
-nothing to commit, working tree clean
+/git status
+/On branch dev
+/Your branch is up-to-date with 'origin/dev'.
+/nothing to commit, working tree clean
 
-* 5a4df0e try cooperate ubun&deb
-* 265d78a diff readme(line2 a) master & dev
- by deb
+/* 5a4df0e try cooperate ubun&deb
+/* 265d78a diff readme(line2 a) master & dev
+/ by deb
+/=======
+/	fixed by ubun 0
+//<<<<<<< HEAD
+//another change (test with deb
+//=======
+//try cooperate ubuntu & debian 233
+//>>>>>>> 5a4df0e77c38a7c038223ad7c97da3d27c922fe2
+/git pull & try to fix conflict (diff ubun & debian)
+/	end fix by ubun 0
+/>>>>>>> 7609f36e64e5858e3b2e7608002844f474909af1
+git pull & fix conflict(deb with ubun&rmt)
+	end fix by deb 1
