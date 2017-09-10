@@ -1,4 +1,9 @@
 before crt bug branch issue-101
 new file_ hello.py
 hello!
-another change (test with deb
+//<<<<<<< HEAD
+//another change (test with deb
+//=======
+//try cooperate ubuntu & debian 233
+//>>>>>>> 5a4df0e77c38a7c038223ad7c97da3d27c922fe2
+git pull & try to fix conflict (diff ubun & debian)
