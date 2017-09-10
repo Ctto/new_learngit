@@ -1,0 +1,19 @@
+practice
+git add filename
+& git commit -m "description"
+& git status
+& git log
+else
+git diff
+& git reflog
+& git reset --hard HEAD~n
+                or commit_id
+& git log --pretty=oneline
+
+& git config user.name
+	     user.email
+	     --global user.name name
+	     	      user.email email
+& git config --list
+& git init
+      init directory_name
